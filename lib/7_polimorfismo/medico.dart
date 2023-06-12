@@ -1,3 +1,3 @@
 abstract class Medico {
-  void operar();
+  void operar(){}
 }

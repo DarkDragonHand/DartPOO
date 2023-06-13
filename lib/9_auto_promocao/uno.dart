@@ -1,19 +1,15 @@
 import 'package:dart_poo/8_interface/carro.dart';
 
-class Gol implements Carro {
+class Uno implements Carro {
   @override
-  String motor = '2.0';
+  String motor = '1.0';
   @override
-  int portas = 4;
+  int portas = 2;
   @override
   int rodas = 4;
 
   @override
   int velocidadeMaxima() {
-    return 200;
-  }
-
-  String tipoDeRodas() {
-    return 'Esportivas';
+    return 120;
   }
 }

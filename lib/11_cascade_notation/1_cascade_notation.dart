@@ -4,11 +4,12 @@ void main() {
     ..email = 'rodrigorahman@academiadoflutter.com.br'
     ..site = 'academiadoflutter.com.br'
     ..printPessoa();
-    
+
   var mapa = <String, String>{}
     ..putIfAbsent('nome', () => 'Guilherme')
     ..putIfAbsent('email', () => 'null')
     ..putIfAbsent('site', () => '');
+  print(mapa);
   /*pessoa.nome = 'Rodrigo Rahman';
   pessoa.email = 'rodrigorahman@academiadoflutter.com.br';
   pessoa.site = 'academiadoflutter.com.br';*/

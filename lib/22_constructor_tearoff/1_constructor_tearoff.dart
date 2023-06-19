@@ -1,7 +1,7 @@
 void main() {
   final nomes = ['Guilherme', 'Potter', 'Petry'];
 
-  final pessoasAntigo = nomes.map((nome) => Pessoa(nome)).toList();
+  //final pessoasAntigo = nomes.map((nome) => Pessoa(nome)).toList();
 
   //final pessoas = nomes.map<Pessoa>(Pessoa.nome).toList();
   //final pessoas = nomes.map<Pessoa>(Pessoa.new).toList();

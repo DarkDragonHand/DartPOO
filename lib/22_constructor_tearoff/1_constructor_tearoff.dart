@@ -3,7 +3,9 @@ void main() {
 
   //final pessoasAntigo = nomes.map((nome) => Pessoa(nome)).toList();
 
+  //*Forma para construtores comuns
   //final pessoas = nomes.map<Pessoa>(Pessoa.nome).toList();
+  //*Forma para construtores nomeados
   //final pessoas = nomes.map<Pessoa>(Pessoa.new).toList();
   final pessoas = nomes.map<Pessoa>(Pessoa.fromJson).toList();
   for (var pessoa in pessoas) {
@@ -11,7 +13,7 @@ void main() {
   }
 
   funcaoQualquer(Pessoa.new);
-  
+  print(funcaoQualquer);
 }
 
 void funcaoQualquer(Pessoa Function(String) funcao) {
